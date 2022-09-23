@@ -1,0 +1,3 @@
+// DEFINE OWN NAMESPACE AT THE TOP
+(define-namespace 'my-namespace (read-keyset 'mylilkeyset) (read-keyset 'mylilkeyset))
+
