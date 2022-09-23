@@ -1,0 +1,14 @@
+(namespace "free")
+
+(define-keyset "free.mylilkeyset"
+  (read-keyset "mylilkeyset"))
+
+(module helloWorld "free.mylilkeyset"
+    "A smart contract to greet the world"
+    (defun hello (name:string dowhat:string)
+        "Do the hello-world dance"
+        (format "Hello {}, please {}!" [name dowhat])
+    )
+)
+
+(hello "world""please wake up")
