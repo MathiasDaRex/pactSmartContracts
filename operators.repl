@@ -1,0 +1,30 @@
+(namespace "free")
+(define-keyset "free.mylilkeyset"(read-keyset "mylilkeyset"))
+
+(module CalculateMf "free.mylilkeyset"
+  "Calculate bitch!"
+    (defun plus (x:integer y:integer)
+        "Add them together"
+        (+ x y)
+    )
+
+    (defun minus (x:integer y:integer)
+        "Minus y from x"
+        (- x y)
+    )
+
+    (defun divide(x:integer y:integer)
+        "divide x by y"
+        (/ x y)
+    )
+
+    (defun multiply(x:integer y:integer)
+        "multiply x by y"
+        (* x y)
+    )
+)
+
+(plus 20 13)
+;(minus 30 15)
+;(divide 10 2)
+;(multiply 4 2)
