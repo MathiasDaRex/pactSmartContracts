@@ -2,7 +2,7 @@
 (define-keyset "free.mylilkeyset"(read-keyset "mylilkeyset"))
 
 (module CalculateMf "free.mylilkeyset"
-  "Calculate bitch!"
+  "Calculate!"
     (defun plus (x:integer y:integer)
         "Add them together"
         (+ x y)
